@@ -6,16 +6,36 @@ body{
 .topheader{
   height:120px;
   width:70%;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   /* background-color: red; */
   margin-top: 15px;
-  padding: 30px;
+  padding: 20px;
 }
 
 .box1{
   /* background-color: blue; */
 }
 
+.box2{
+  border-style:outset;
+  border-width: thick;
+  border-color: #777782;
+}
+
+/* .box3{
+  border-style:ridge;
+  border-width: thick;
+  border-color: grey;
+} */
+.topheader .box1 .logo{
+    text-align: center;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: palatino;
+}
 .navheader{
   width:70%;
   margin-bottom: 10px;
@@ -28,6 +48,7 @@ body{
 .carouselheader{
   width: 70%;
   text-align: center;
+  background-color: white;
 }
 
 .carousel-inner img {
