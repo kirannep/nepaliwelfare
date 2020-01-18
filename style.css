@@ -36,6 +36,19 @@ h1{
   font-weight: bold;
   font-family: palatino;
 }
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:20px;
+    }
+
+    .topheader{
+      margin-bottom: 50px;
+    }
+    .topheader .box1 .logo{
+      width: 40%;
+    }
+}
 .navheader{
   width:70%;
   margin-bottom: 10px;
